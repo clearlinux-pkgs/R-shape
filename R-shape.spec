@@ -4,7 +4,7 @@
 #
 Name     : R-shape
 Version  : 1.4.4
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/shape_1.4.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/shape_1.4.4.tar.gz
 Summary  : Functions for Plotting Graphical Shapes, Colors
@@ -23,10 +23,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552797120
+export SOURCE_DATE_EPOCH=1552939370
 
 %install
-export SOURCE_DATE_EPOCH=1552797120
+export SOURCE_DATE_EPOCH=1552939370
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
