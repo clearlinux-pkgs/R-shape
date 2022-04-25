@@ -4,7 +4,7 @@
 #
 Name     : R-shape
 Version  : 1.4.6
-Release  : 41
+Release  : 42
 URL      : https://cran.r-project.org/src/contrib/shape_1.4.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/shape_1.4.6.tar.gz
 Summary  : Functions for Plotting Graphical Shapes, Colors
@@ -24,10 +24,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641123565
+export SOURCE_DATE_EPOCH=1650909109
 
 %install
-export SOURCE_DATE_EPOCH=1641123565
+export SOURCE_DATE_EPOCH=1650909109
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -84,7 +84,6 @@ R CMD check --no-manual --no-examples --no-codoc shape || :
 /usr/lib64/R/library/shape/R/shape.rdx
 /usr/lib64/R/library/shape/demo/colorshapes.r
 /usr/lib64/R/library/shape/doc/index.html
-/usr/lib64/R/library/shape/doc/shape.R
 /usr/lib64/R/library/shape/doc/shape.Rnw
 /usr/lib64/R/library/shape/doc/shape.pdf
 /usr/lib64/R/library/shape/help/AnIndex
