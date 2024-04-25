@@ -7,7 +7,7 @@
 #
 Name     : R-shape
 Version  : 1.4.6.1
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/shape_1.4.6.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/shape_1.4.6.1.tar.gz
 Summary  : Functions for Plotting Graphical Shapes, Colors
